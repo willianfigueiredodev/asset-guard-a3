@@ -2,11 +2,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 class DetectorDeAnomalias:
-    """
-    Encapsula toda a lógica de Machine Learning (o "cérebro" do AssetGuard).
-    Sua responsabilidade é aprender o que é "normal" e depois identificar desvios.
-    Isso é um exemplo de encapsulamento, um pilar da Orientação a Objetos.
-    """
+   
     def __init__(self, n_clusters):
         self.n_clusters = n_clusters
         self.modelo = KMeans(n_clusters=self.n_clusters, random_state=42, n_init=10)

@@ -2,11 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class CenarioDeMonitoramento:
-    """
-    Responsável por criar, gerenciar e visualizar os dados de um cenário específico.
-    Esta classe aplica o princípio da Separação de Responsabilidades: ela cuida
-    dos dados, mas não sabe nada sobre a lógica de detecção (IA).
-    """
+
     def __init__(self, centros_normais, dados_anomalos, num_pontos_por_centro=100, dispersao=0.005):
         self.centros_normais = centros_normais
         self.pontos_anomalos_definidos = np.array(dados_anomalos)
