@@ -3,10 +3,6 @@ from cenario import CenarioDeMonitoramento
 from detector import DetectorDeAnomalias
 
 if __name__ == "__main__":
-    """
-    Este é o 'maestro' da nossa aplicação. Sua função é orquestrar os objetos
-    e a sequência de ações, demonstrando um design de software flexível e escalável.
-    """
 
     np.random.seed(42)
     centros_operacionais = [
