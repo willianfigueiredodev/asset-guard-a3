@@ -46,7 +46,19 @@ O pipeline de execução do protótipo segue uma sequência lógica de quatro et
 
 4.  **Verificação e Classificação:** Uma função `verificar()` recebe um novo ponto de coordenadas. Ela calcula a distância deste ponto ao centróide mais próximo e a compara com o limiar pré-calculado. Se a distância for maior que o limiar, o ponto é classificado como uma anomalia.
 
-## 5. Como Executar o Protótipo
+### 5. Tecnologias Utilizadas
+Linguagem: Python 3
+
+Bibliotecas Principais:
+```bash
+NumPy: Para computação numérica e manipulação de arrays.
+
+Scikit-learn: Para a implementação do algoritmo K-Means.
+
+Matplotlib: Para a visualização de dados.
+```
+
+## 6. Como Executar o Protótipo
 
 ### Pré-requisitos
 - Python 3.8+
@@ -73,3 +85,4 @@ O pipeline de execução do protótipo segue uma sequência lógica de quatro et
 Navegue até a pasta do projeto e execute o script principal:
 ```bash
 python main.py
+```
